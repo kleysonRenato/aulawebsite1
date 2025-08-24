@@ -1,0 +1,115 @@
+body {
+    font-family: 'Mozilla Text', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+.h1 {
+    margin: 45px;
+    align-items: left;
+    display: flex;
+}
+
+.divcotacao{
+    margin: 20px;
+    margin-top: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    width: 188.2vh;
+
+}
+
+.menu {
+    margin-top: 25px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 50px;
+}
+
+.opcao1, .opcao2, .opcao3 {
+    font: 50px;
+    border: 2px solid #000000;
+    padding: 40px;
+    border-radius: 10px;
+    width: 80vh;
+    text-align: center;
+    background-color: #f4f4f4;
+    float: inline-end;
+    box-shadow: 2px  20px 10px rgba(0,0,0,0.2);
+}
+
+h2, h3, h4 {
+    color: #000000;
+    font-size: 40px;
+    text-align: left;
+
+}
+
+
+.opcao1 img, .opcao2 img, .opcao3 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.opcao1 button, .opcao2 button, .opcao3 button {
+    margin-top: 5px;
+    background-color: #0000003e;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.opcao1 button:hover, .opcao2 button:hover, .opcao3 button:hover {
+    background-color: #ffffff;
+}
+
+.footer {
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.footer1 {
+    padding: 25px;
+    margin: 5px 0;
+}
+
+.linkedin {
+    margin-top: 10px; 
+    font-size: 24px;
+
+}
