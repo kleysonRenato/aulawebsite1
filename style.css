@@ -151,8 +151,5 @@ main {
 }
 
 .iconelinkedin {
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    width: 200px;
+    padding: 50px;
 }
