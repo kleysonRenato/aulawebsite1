@@ -115,6 +115,8 @@ main {
 
 .galerriadecarros img {
     width: 400px;
+    border: 2px solid #000000;
+    border-radius: 5px;
     max-width: 100%;
     height: auto;
     border-radius: 10px;
