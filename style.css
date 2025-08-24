@@ -39,7 +39,7 @@ main {
 .opcao1,
 .opcao2,
 .opcao3 {
-    flex-direction: column;
+    display: flex;
     padding: 50px;
     border-radius: 10px;
     width: 300px;
