@@ -113,7 +113,7 @@ main {
     border-radius: 20px;
 }
 
-.item {
+.carros {
     display: flex;
     align-items: center;
     gap: 20px;
