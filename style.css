@@ -36,6 +36,7 @@ header {
     padding: 10px;
     text-align: center;
 }
+
 main {
     display: flex;
     justify-content: center;
@@ -46,8 +47,9 @@ main {
 .opcao1,
 .opcao2,
 .opcao3 {
-    display: block;
-    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 50px;
     border-radius: 10px;
     width: 300px;
@@ -114,7 +116,6 @@ main {
     margin-top: 20px;
     background-color: rgba(0, 0, 0, 0.44);
     box-shadow: #333 2px 20px 10px;
-    margin-top: 20px;
     margin: 50px;
     border-radius: 20px;
 }
