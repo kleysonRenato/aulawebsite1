@@ -38,7 +38,7 @@ main {
 .opcao1,
 .opcao2,
 .opcao3 {
-    display: flex;
+    display: block;
     justify-content: flex-end;
     padding: 50px;
     border-radius: 10px;
