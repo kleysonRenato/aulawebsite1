@@ -39,14 +39,15 @@ main {
 .opcao1,
 .opcao2,
 .opcao3 {
-    font-size: 25px;
-    border: 2px solid #000000;
-    padding: 40px;
-    border-radius: 10px;
-    width: 300px;
-    text-align: center;
-    background-color: #f4f4f4;
-    box-shadow: 2px 20px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.44);
+    box-shadow: #333 2px 20px 10px;
+    margin-top: 20px;
+    margin: 50px;
+    border-radius: 20px;
 }
 
 .opcao1 img,
