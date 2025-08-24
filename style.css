@@ -127,3 +127,10 @@ h2, h3, h4 {
     padding: 100px;
     width: 188.2vh;
 }
+.galerriadecarros{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
