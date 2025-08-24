@@ -105,6 +105,7 @@ main {
 
 .galerriadecarros {
     display: flex;
+    flex-wrap: start;
     gap: 20px;
     justify-content: center;
     margin-top: 20px;
