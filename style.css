@@ -132,3 +132,13 @@ main {
     margin: 5px 0;
     font-size: 20px;
 }
+
+.botaocomprar {
+    margin-top: 10px;
+    background-color: #0000003e;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
