@@ -27,9 +27,9 @@ header {
     text-decoration: underline;
 }
 
-.divcotacao h1 {
+.h1 {
     display: flex;
-    justify-content: center;
+    justify-content: center;a
     margin-top: 20px;
     background-color: #444;
     color: white;
