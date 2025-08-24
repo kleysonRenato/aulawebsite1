@@ -2,7 +2,6 @@ body {
     font-family: 'Mozilla Text', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
 }
 
 header {
@@ -12,133 +11,62 @@ header {
     text-align: center;
 }
 
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
 .menu {
-    margin-top: 25px;
+    margin-top: 10px;
 }
 
 .menu a {
     color: white;
     text-decoration: none;
-    margin: 0 15px;
-    font-weight: bold;
+    margin: 0 10px;
+    font-size: 1rem;
 }
 
-.menu a:hover {
-    text-decoration: underline;
-}
-
-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    gap: 50px;
-}
-
-.opcao1,
-.opcao2,
-.opcao3 {
-    font-size: 50px;
-    border: 2px solid #000000;
-    padding: 40px;
-    border-radius: 10px;
-    width: 80%;
-    max-width: 800px;
+.divcotacao {
     text-align: center;
-    background-color: #f4f4f4;
-    box-shadow: 2px 20px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
 }
 
-.opcao1 img,
-.opcao2 img,
-.opcao3 img {
+.divcotacao h1 {
+    font-size: 2rem;
+}
+
+.titulo {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.titulo h1 {
+    font-size: 2rem;
+}
+
+.opcao1, .opcao2, .opcao3 {
+    margin: 20px auto;
+    max-width: 500px;
+    text-align: center;
+}
+
+.opcao1 img, .opcao2 img, .opcao3 img {
     width: 100%;
     height: auto;
     border-radius: 10px;
 }
 
-.opcao1 button,
-.opcao2 button,
-.opcao3 button {
-    margin-top: 5px;
-    background-color: #0000003e;
-    color: #000000;
-    border: none;
+.opcao1 button, .opcao2 button, .opcao3 button {
+    margin-top: 10px;
     padding: 10px 20px;
-    border-radius: 5px;
+    font-size: 1rem;
     cursor: pointer;
 }
 
-.opcao1 button:hover,
-.opcao2 button:hover,
-.opcao3 button:hover {
-    background-color: #ffffff;
-}
-
-.footer {
-    margin-top: 20px;
+footer {
     background-color: #333;
     color: white;
-    padding: 15px;
     text-align: center;
-}
-
-.Veiculosnovos {
-    margin: 20px;
-    padding: 100px;
-    background-color: black;
-    color: white;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.paragrafoveiculosnovos {
-    font-size: 25px;
-    text-align: center;
-    margin-top: 20px;
-}
-
-.galerriadecarros {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    margin-top: 20px;
-    background-color: rgba(0, 0, 0, 0.44);
-    box-shadow: #333 2px 20px 10px;
-    margin-top: 20px;
-    margin: 50px;
-    border-radius: 20px;
-}
-
-.carros {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    border: 2px solid #000000;
-    border-radius: 20px;
-}
-
-.carros img {
-    width: 400px;
-    height: 250px;
-    border: 2px solid #000000;
-    border-radius: 10px;
-}
-
-.informacao p {
-    margin: 5px 0;
-    font-size: 20px;
-}
-
-.botaocomprar {
-    margin-top: 10px;
-    background-color: #0000003e;
-    color: #000000;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
+    padding: 15px 0;
 }
