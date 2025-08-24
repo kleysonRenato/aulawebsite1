@@ -140,6 +140,12 @@ h4 {
 
 }
 
+.Veiculos p{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+
 .galerriadecarros {
     display: flex;
     flex-wrap: wrap;
