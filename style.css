@@ -121,14 +121,14 @@ main {
     border-radius: 20px;
 }
 
-.item img {
+.carros img {
     width: 400px;
     height: 250px;
     border: 2px solid #000000;
     border-radius: 10px;
 }
 
-.info p {
+.informacao p {
     margin: 5px 0;
     font-size: 20px;
 }
