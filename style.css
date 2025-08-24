@@ -90,7 +90,8 @@ main {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 200px;
+    padding: 100px;
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
