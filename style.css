@@ -27,6 +27,14 @@ header {
     text-decoration: underline;
 }
 
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 50px;
+}
+
 .h1 {
     display: flex;
     justify-content: center;a
@@ -36,14 +44,6 @@ header {
     padding: 10px;
     text-align: center;
 }
-
-main {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    gap: 50px;
-}
-
 .opcao1,
 .opcao2,
 .opcao3 {
