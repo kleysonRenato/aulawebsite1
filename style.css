@@ -27,10 +27,18 @@ header {
     text-decoration: underline;
 }
 
+.divcotação {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #444;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
 main {
     display: flex;
     justify-content: center;
-    align-items: center;
     padding: 20px;
     gap: 50px;
 }
