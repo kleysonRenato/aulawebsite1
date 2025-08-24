@@ -11,13 +11,14 @@ header {
     padding: 15px;
     text-align: center;
 }
+
 .h1 {
     margin: 45px;
     align-items: left;
     display: flex;
 }
 
-.divcotacao{
+.divcotacao {
     margin: 20px;
     margin-top: 0;
     background-color: black;
@@ -55,7 +56,9 @@ main {
     gap: 50px;
 }
 
-.opcao1, .opcao2, .opcao3 {
+.opcao1,
+.opcao2,
+.opcao3 {
     font: 50px;
     border: 2px solid #000000;
     padding: 40px;
@@ -64,10 +67,12 @@ main {
     text-align: center;
     background-color: #f4f4f4;
     float: inline-end;
-    box-shadow: 2px  20px 10px rgba(0,0,0,0.2);
+    box-shadow: 2px 20px 10px rgba(0, 0, 0, 0.2);
 }
 
-h2, h3, h4 {
+h2,
+h3,
+h4 {
     color: #000000;
     font-size: 40px;
     text-align: left;
@@ -75,13 +80,17 @@ h2, h3, h4 {
 }
 
 
-.opcao1 img, .opcao2 img, .opcao3 img {
+.opcao1 img,
+.opcao2 img,
+.opcao3 img {
     width: 100%;
     height: auto;
     border-radius: 10px;
 }
 
-.opcao1 button, .opcao2 button, .opcao3 button {
+.opcao1 button,
+.opcao2 button,
+.opcao3 button {
     margin-top: 5px;
     background-color: #0000003e;
     color: #000000;
@@ -91,7 +100,9 @@ h2, h3, h4 {
     cursor: pointer;
 }
 
-.opcao1 button:hover, .opcao2 button:hover, .opcao3 button:hover {
+.opcao1 button:hover,
+.opcao2 button:hover,
+.opcao3 button:hover {
     background-color: #ffffff;
 }
 
@@ -109,13 +120,13 @@ h2, h3, h4 {
 }
 
 .linkedin {
-    margin-top: 10px; 
+    margin-top: 10px;
     font-size: 24px;
 
 }
 
 
-.Veiculosnovos{
+.Veiculosnovos {
     margin: 20px;
     margin-top: 0;
     background-color: black;
@@ -126,8 +137,10 @@ h2, h3, h4 {
     align-items: center;
     padding: 100px;
     width: 188.2vh;
+
 }
-.galerriadecarros{
+
+.galerriadecarros {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
