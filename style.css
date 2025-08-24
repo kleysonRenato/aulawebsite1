@@ -12,26 +12,6 @@ header {
     text-align: center;
 }
 
-.h1 {
-    margin: 45px;
-    align-items: left;
-    display: flex;
-}
-
-.divcotacao {
-    margin: 20px;
-    margin-top: 0;
-    background-color: black;
-    color: white;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 100px;
-    width: 188.2vh;
-
-}
-
 .menu {
     margin-top: 25px;
 }
@@ -59,26 +39,16 @@ main {
 .opcao1,
 .opcao2,
 .opcao3 {
-    font: 50px;
+    font-size: 50px;
     border: 2px solid #000000;
     padding: 40px;
     border-radius: 10px;
-    width: 80vh;
+    width: 80%;
+    max-width: 800px;
     text-align: center;
     background-color: #f4f4f4;
-    float: inline-end;
     box-shadow: 2px 20px 10px rgba(0, 0, 0, 0.2);
 }
-
-h2,
-h3,
-h4 {
-    color: #000000;
-    font-size: 40px;
-    text-align: left;
-
-}
-
 
 .opcao1 img,
 .opcao2 img,
@@ -114,33 +84,20 @@ h4 {
     text-align: center;
 }
 
-.footer1 {
-    padding: 25px;
-    margin: 5px 0;
-}
-
-.linkedin {
-    margin-top: 10px;
-    font-size: 24px;
-
-}
-
-
 .Veiculosnovos {
     margin: 20px;
-    margin-top: 0;
+    padding: 100px;
     background-color: black;
     color: white;
     text-align: center;
+    width: 100%;
+    max-width: 1200px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px;
-    width: 188.2vh;
-
 }
 
-.paragrafoveiculosnovos{
+.paragrafoveiculosnovos {
     font-size: 25px;
     text-align: center;
     margin-top: 20px;
@@ -152,4 +109,11 @@ h4 {
     gap: 20px;
     justify-content: center;
     margin-top: 20px;
+}
+
+.galerriadecarros img {
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
