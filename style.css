@@ -27,7 +27,7 @@ header {
     text-decoration: underline;
 }
 
-.divcotação h1 {
+.divcotacao h1 {
     display: flex;
     justify-content: center;
     margin-top: 20px;
