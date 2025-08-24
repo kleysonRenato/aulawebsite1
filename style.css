@@ -90,8 +90,6 @@ main {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 100px;
-    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -105,17 +103,25 @@ main {
 
 .galerriadecarros {
     display: flex;
-    flex-wrap: start;
+    flex-direction: column;
     gap: 20px;
-    justify-content: center;
     margin-top: 20px;
 }
 
-.galerriadecarros img {
+.item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.item img {
     width: 400px;
+    height: 250px;
     border: 2px solid #000000;
-    border-radius: 5px;
-    max-width: 100%;
-    height: auto;
     border-radius: 10px;
+}
+
+.info p {
+    margin: 5px 0;
+    font-size: 20px;
 }
