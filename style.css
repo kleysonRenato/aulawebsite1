@@ -35,15 +35,6 @@ main {
     gap: 50px;
 }
 
-.h1 {
-    display: flex;
-    justify-content: center;a
-    margin-top: 5444px;
-    background-color: #444;
-    color: white;
-    padding: 10px;
-    text-align: center;
-}
 .opcao1,
 .opcao2,
 .opcao3 {
