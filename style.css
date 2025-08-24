@@ -113,3 +113,17 @@ h2, h3, h4 {
     font-size: 24px;
 
 }
+
+
+.veiculosnovos{
+    margin: 20px;
+    margin-top: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    width: 188.2vh;
+}
