@@ -157,3 +157,9 @@ main {
     justify-content: center;
     cursor: pointer;
 }
+
+.divisaobotaocomprar {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
