@@ -67,7 +67,8 @@ main {
 
 .opcao1 img, .opcao2 img, .opcao3 img, .carros img {
     padding: 200px;
-    height: auto;
+    justify-content: center;
+    align-items: center;
     border-radius: 10px;
     margin-bottom: 15px;
 }
