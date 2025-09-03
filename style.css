@@ -42,23 +42,23 @@ main {
     padding: 30px 20px;
 }
 
-.secao1 {
+.secao1, section {
     text-align: center;
 }
 
-.secao1 h1 {
+.secao1 h1, .Veiculosnovos {
     font-size: 30px;
     margin: 10px 0;
 }
 
-.galeria {
+.galeria, .galerriadecarros {
     display: flex;
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
 }
 
-.opcao1, .opcao2, .opcao3 {
+.opcao1, .opcao2, .opcao3, .carros, .opcaocamaro {
     background-color: #fff;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
@@ -68,11 +68,11 @@ main {
     transition: transform 0.3s;
 }
 
-.opcao1:hover, .opcao2:hover, .opcao3:hover {
+.opcao1:hover, .opcao2:hover, .opcao3:hover, .carros:hover, .opcaocamaro:hover {
     transform: translateY(-5px);
 }
 
-.opcao1 img, .opcao2 img, .opcao3 img {
+.opcao1 img, .opcao2 img, .opcao3 img, .carros img, .opcaocamaro img {
     width: 100%;
     height: auto;
     display: block;
@@ -80,7 +80,7 @@ main {
     border-radius: 10px;
 }
 
-button {
+button, .botaocomprar {
     background-color: #2e18d9;
     color: #fff;
     border: none;
@@ -91,8 +91,33 @@ button {
     transition: 0.3s;
 }
 
-button:hover {
+button:hover, .botaocomprar:hover {
     background-color: #4a30ff;
+}
+
+.simulacao {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+}
+
+.simulacao label {
+    font-weight: bold;
+}
+
+.simulacao input {
+    padding: 8px 10px;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+#resultado {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #0077ff;
 }
 
 .footer {
@@ -117,12 +142,23 @@ button:hover {
     fill: #0077ff;
 }
 
+.informacao p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.paragrafoveiculosnovos {
+    max-width: 600px;
+    margin: 0 auto 20px auto;
+    text-align: center;
+}
+
 @media (max-width: 768px) {
     main {
         padding: 20px 10px;
     }
 
-    .opcao1, .opcao2, .opcao3 {
+    .opcao1, .opcao2, .opcao3, .carros, .opcaocamaro {
         width: 90%;
         padding: 15px;
     }
