@@ -56,9 +56,8 @@ main {
     background-color: #fff;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-    padding: 300px;
+    padding: 100px;
     text-align: center;
-    width: 300px;
     transition: transform 0.3s;
 }
 
